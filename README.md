@@ -1,18 +1,16 @@
-# NodeAPI
-
-npm init
+yarn init
 
 --- Dependence ---
-npm add express // https://www.npmjs.com/package/express
-npm add dotenv // https://www.npmjs.com/package/dotenv
-npm add bcrypt // https://www.npmjs.com/package/bcrypt
-npm add mysql // https://www.npmjs.com/package/mysql
-
-npm add body-parser cors jsonwebtoken
+yarn add express // https://www.npmjs.com/package/express
+yarn add dotenv // https://www.npmjs.com/package/dotenv
+yarn add bcrypt // https://www.npmjs.com/package/bcrypt
+yarn add mysql // https://www.npmjs.com/package/mysql
 
 --- Dependence dev ---
-npm add typescript @types/express ts-node @types/dotenv @types/bcrypt @types/mysql @types/body-parser @types/cors @types/jsonwebtoken --dev
-
+yarn add typescript @types/express ts-node --dev
+yarn add @types/dotenv --dev
+yarn add @types/bcrypt --dev
+yarn add @types/mysql --dev
 
 --- Global ---
-sudo npm i nodemon pm2 -g
+npm i nodemon pm2 -g
