@@ -25,7 +25,7 @@ export const registerMidd = (req: Request, res: Response, next: () => void) => {
 
     let data: any = req.body;
 
-    const champsRequire = [`nom`, `prenom`, `dateNaiss`, `pays`, `email`, `adresse`, `ville`, `zipcode`, `password`]
+    const champsRequire = [`firstname`, `lastname`, `email`, `password`, `date_naissance`, `sexe`]
 
     try {
 
