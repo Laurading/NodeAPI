@@ -21,4 +21,9 @@ export default class Child {
     get tuteurId() : number {
         return this.id_tuteur;
     } 
+
+    get attributInsert(): Array < string > {
+        return ['id_user', 'id_tuteur']
+    };
+
 }
