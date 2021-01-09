@@ -2,12 +2,12 @@ export default class Cart {
 
     private id_cart: number;
     private cartNumber: string | null;
-    private month: string | null;
     private year: number ;
+    private month: string | null;
 
-    constructor(id: number, cartNumb?: string, mois?: string, an?: number ){
+    constructor(id: number, cartNumb: string,an: number, mois?: string ){
         this.id_cart = id;
-        this.cartNumber = (cartNumb) ? null : cartNumb;
+        this.cartNumber = cartNumb;
         this.month = (mois === undefined) ? null : mois;
         this.year = an;
     }
